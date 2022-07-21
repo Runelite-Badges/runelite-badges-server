@@ -1,7 +1,7 @@
 package com.mark
 
-import com.mark.Routing.configureRouting
-import com.mark.data.BadgeType
+import com.mark.PluginRouting.configureRouting
+import com.mark.data.BadgeTypePlugin
 import com.mark.data.PluginData
 import com.mashape.unirest.http.Unirest
 import io.ktor.server.engine.*
@@ -12,24 +12,13 @@ class Application  {
 
     companion object {
         var runeliteVersion : String = ""
-        val UNKNOWN = PluginData(
-            createdAt = 0,
-            lastUpdatedAt = 0,
-            installs = 0,
-            displayName = "",
-            internalName = "",
-            version = "",
-            description = "",
-            support = "",
-            tags  = emptyList(),
-            hasIcon = false,
-        )
+        val UNKNOWN = PluginData()
 
     }
 
     private fun makeDefaultBadges() {
-        BadgeType.values().forEach {
-            UNKNOWN.getBadge(it,true)
+        BadgeTypePlugin.values().forEach {
+            UNKNOWN.getBadgePlugin(it,true)
         }
     }
 
