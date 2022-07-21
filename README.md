@@ -1,10 +1,10 @@
 <p></p>
-<div align="center"><img width=40.5% src="https://pbs.twimg.com/profile_images/1080521423733616640/xfSrEBc3_400x400.jpg"></div>
+<div align="center"><img width=24.5% src="https://pbs.twimg.com/profile_images/1080521423733616640/xfSrEBc3_400x400.jpg"></div>
 
 <div align="center">
 
 ![Kotlin](https://img.shields.io/badge/kotlin-1.7.0-green.svg?style=for-the-badge&colorB=7289da)
-![](https://img.shields.io/tokei/lines/github/?&colorB=7289da&style=for-the-badge)
+![](https://img.shields.io/tokei/lines/github/Mark7625/runelite-badges?&colorB=7289da&style=for-the-badge)
 </div>
 
 ## Basic Overview
